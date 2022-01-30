@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ImageGrid, Modal, Title, UploadForm } from './comps';
+import { ImageGrid, Modal, Title, UploadForm } from './components';
 
 function App() {
   const [selectedImg, setSelectedImg] = useState(null);
